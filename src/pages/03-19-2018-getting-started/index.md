@@ -1,7 +1,7 @@
 ---
 path: "/first-post"
-date: "2017-07-12T17:12:33.962Z"
+date: "2018-03-19T17:12:33.962Z"
 title: "My First Gatsby Post"
 ---
 
-Oooooh-weeee, my first blog post!
+Oooooh-weeee, tva mi e parviqt blog post! She gi prasna muehehe
