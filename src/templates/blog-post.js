@@ -11,6 +11,7 @@ export default function Template({ data, // this prop will be injected by the Gr
       <Helmet title={`Your Blog Name - ${post.frontmatter.title}`} />
       <div className="blog-post">
         <h1>{post.frontmatter.title}</h1>
+        <p>{post.frontmatter.date}</p>
         <div
           className="blog-post-content"
           dangerouslySetInnerHTML={{ __html: post.html }}
