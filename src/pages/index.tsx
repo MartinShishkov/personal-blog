@@ -8,7 +8,7 @@ export interface IIndexPageProps{
     data: any;
 }
 
-export default class IndexPag extends React.Component<IIndexPageProps, {}> {
+export default class IndexPage extends React.Component<IIndexPageProps, {}> {
     constructor(props) {
         super(props);
     }

@@ -1,7 +1,7 @@
 import * as React from "react";
 import Link from "gatsby-link";
 
-const styles = require('./PostListViewItem.style.scss');
+const styles = require('./PostListViewItem.module.css');
 
 export interface IPostListViewItemProps{
     url: string;
@@ -13,10 +13,10 @@ export const PostListViewItem = (props: IPostListViewItemProps) => {
     return (
         <Link
             to={props.url} 
-            className={"postListViewItem"}
+            className={styles.postListViewItem}
         >
-            <span className={"title"}>{props.title}</span>
-            <span className={"date"}>
+            <span className={styles.title}>{props.title}</span>
+            <span className={styles.date}>
                 {props.date}
             </span>                
         </Link>
