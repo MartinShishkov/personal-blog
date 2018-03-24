@@ -26,10 +26,12 @@ module.exports = {
           filetypes: {
             ".scss": { syntax: `postcss-scss` },
           },
-    
+          
+          generateScopedName: "[local]_[hash:base64:5]",
           // Exclude global styles from the plugin using a RegExp:
-          exclude: `\/global\/`,
+          exclude: `\/global\/`
         },
+        //localIdentName: "[local]--[hash:base64:5]",
     },
     {
       resolve: `gatsby-source-filesystem`,

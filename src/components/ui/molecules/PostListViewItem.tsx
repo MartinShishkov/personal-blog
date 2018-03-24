@@ -1,7 +1,7 @@
 import * as React from "react";
 import Link from "gatsby-link";
 
-const styles = require('./PostListViewItem.module.css');
+const styles = require('./PostListViewItem.module.scss');
 
 export interface IPostListViewItemProps{
     url: string;
