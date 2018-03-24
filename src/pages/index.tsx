@@ -17,7 +17,7 @@ export default class IndexPage extends React.Component<IIndexPageProps, {}> {
         return (
             <div>
                 <div className="row">
-                    <div className="col-xs-12 text-center">
+                    <div className="col-xs-12">
                         <h1>This is some NEW TS shit</h1>
                         <p>Welcome to your new Gatsby site.</p>
                         <p>Now go build something great.</p>
