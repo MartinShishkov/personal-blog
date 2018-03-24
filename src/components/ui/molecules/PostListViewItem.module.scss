@@ -1,14 +1,29 @@
+$primary-color: #00FF00;
+
 .postListViewItem{
     display: inline-block;
     overflow: hidden;
+   
+
+    &:hover{
+        text-decoration: none;
+    }
+
+    .title{
+        display: block;
+        padding: 5px 10px;
+        font-size: 1.7em;
+        font-weight: bold;
+        color: $primary-color;
+        background-color: rgba($color:$primary-color, $alpha: 0.3);
+    }
+    
+    .date{
+        padding: 5px 10px;
+        display: inline-block;
+        color: $primary-color;
+        font-size: 9pt;
+        background-color: rgba($color:$primary-color, $alpha: 0.3);
+    }
 }
 
-.title{
-    font-weight: bold;
-    color: green;
-}
-
-.date{
-    display: block;
-    font-size: 9pt;
-}
