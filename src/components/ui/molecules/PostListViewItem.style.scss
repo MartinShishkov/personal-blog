@@ -1,0 +1,17 @@
+.postListViewItem{
+    display: inline-block;
+    overflow: hidden;
+
+    .title{
+        font-weight: bold;
+    }
+
+    .date{
+        display: block;
+        font-size: 9pt;
+    }
+
+    &:visited{
+        color: green;
+    }
+}

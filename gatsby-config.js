@@ -7,6 +7,16 @@ module.exports = {
     'gatsby-plugin-catch-links',
     'gatsby-plugin-sass',
     {
+        resolve: "gatsby-plugin-typescript",
+        options: {
+          transpileOnly: true, // default
+          compilerOptions: {
+            target: `es6`,
+            jsx: `react`,
+          }, // default
+        },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/src/pages`,
