@@ -9,17 +9,37 @@ import './index.scss';
 import './site.scss';
 
 const TemplateWrapper = ({ children }) => (
-  <div>
+  <div style={{height: "100%"}}>
     <Helmet
-      title="SharkDevelopep"
-      meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
-      ]}
+        title="SharkDeveloper"
+        meta={[
+            { name: 'description', content: 'Sample' },
+            { name: 'keywords', content: 'sample, something' },
+        ]}
     />
-    <Header />
-    <div className={"container-fluid"}>
-      {children()}
+    
+    <div className={"container-fluid"} style={{height: "100%"}}>
+        <div className={"row"} style={{height: "100%"}}>
+            <div className={"col-xs-1 col-sm-2 hidden-xs"} 
+                style={{backgroundColor: "rgb(45, 45, 45)", height: "100%"}}>
+
+            </div>
+            <div className={"col-xs-12 col-sm-10"}>
+                <div className={"row"}>
+                    <div className={"col-xs-12"}>
+                        <Header />
+                    </div>
+                </div>
+                
+                <div className={"row"}>
+                    <div className={"col-xs-12"}>
+                        {children()}
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        
     </div>
   </div>
 )

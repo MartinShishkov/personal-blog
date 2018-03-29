@@ -15,15 +15,7 @@ export default class IndexPage extends React.Component<IIndexPageProps, {}> {
 
     render(){
         return (
-            <div>
-                <div className="row">
-                    <div className="col-xs-12">
-                        <h1>This is some NEW TS shit</h1>
-                        <p>Welcome to your new Gatsby site.</p>
-                        <p>Now go build something great.</p>
-                    </div>
-                </div>
-                
+            <div>              
                 {
                     this.props.data.allMarkdownRemark.edges.map((post, i) => {
                         return (

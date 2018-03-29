@@ -11,14 +11,16 @@ export interface IPostListViewItemProps{
 
 export const PostListViewItem = (props: IPostListViewItemProps) => {
     return (
-        <Link
-            to={props.url} 
-            className={styles.postListViewItem}
-        >
-            <span className={styles.title}>{props.title}</span>
+        <div className={styles.postListViewItem}>
             <span className={styles.date}>
                 {props.date}
-            </span>                
-        </Link>
+            </span>
+            <Link
+                to={props.url} 
+                className={styles.title}
+            >
+                {props.title}
+            </Link>
+        </div>
     );
 }

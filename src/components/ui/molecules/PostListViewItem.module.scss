@@ -1,4 +1,5 @@
 $primary-color: #00FF00;
+$link-color: #4a8bfc;
 
 .postListViewItem{
     display: inline-block;
@@ -10,20 +11,15 @@ $primary-color: #00FF00;
     }
 
     .title{
-        display: block;
-        padding: 5px 10px;
         font-size: 1.7em;
-        font-weight: bold;
-        color: $primary-color;
-        background-color: rgba($color:$primary-color, $alpha: 0.3);
-    }
-    
-    .date{
-        padding: 5px 10px;
-        display: inline-block;
-        color: $primary-color;
-        font-size: 9pt;
-        background-color: rgba($color:$primary-color, $alpha: 0.3);
-    }
+        color: $link-color;
+        transition: 0.3s all;
+    }  
 }
 
+.date{
+    margin-right: 15px;
+    display: inline-block;
+    color: $link-color;
+    font-weight: bold;
+}

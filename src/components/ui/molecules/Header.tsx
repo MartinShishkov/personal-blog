@@ -3,7 +3,7 @@ import Link from 'gatsby-link'
 
 const styles = require('./Header.module.scss');
 
-export const Header = () => {
+export const Header = ({data}) => {
     const appName = "sharkDeveloper";
 
     return (
