@@ -5,4 +5,5 @@ node_modules
 yarn-error.log
 
 # Build directory
-/public
+/public/index.html
+/public/render-page.js.map
