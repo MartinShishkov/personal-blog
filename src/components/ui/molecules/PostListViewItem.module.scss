@@ -1,25 +1,19 @@
-$primary-color: #00FF00;
 $link-color: #4a8bfc;
 
 .postListViewItem{
     display: inline-block;
     overflow: hidden;
-   
-
-    &:hover{
-        text-decoration: none;
-    }
+    margin-bottom: 20px;
 
     .title{
-        font-size: 1.7em;
         color: $link-color;
-        transition: 0.3s all;
+        font-weight: bold;
     }  
+
+    .date{
+        float: right;
+        margin-right: 15px;
+        font-weight: bold;
+    }
 }
 
-.date{
-    margin-right: 15px;
-    display: inline-block;
-    color: $link-color;
-    font-weight: bold;
-}
