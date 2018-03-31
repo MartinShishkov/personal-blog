@@ -8,7 +8,7 @@ export default function Template({ data, // this prop will be injected by the Gr
   const { markdownRemark: post } = data; // data.markdownRemark holds our post data
   return (
     <div className="blog-post-container">
-      <Helmet title={`Your Blog Name - ${post.frontmatter.title}`} />
+      <Helmet title={`sharkDeveloper - ${post.frontmatter.title}`} />
       <div className="blog-post">
         <h1>{post.frontmatter.title}</h1>
         <p>{post.frontmatter.date}</p>
