@@ -11,7 +11,7 @@ import './site.scss';
 const TemplateWrapper = ({ children }) => (
   <div style={{height: "100%"}}>
     <Helmet
-        title="SharkDeveloper"
+        title="sharkDeveloper"
         meta={[
             { name: 'description', content: 'Sample' },
             { name: 'keywords', content: 'sample, something' },
