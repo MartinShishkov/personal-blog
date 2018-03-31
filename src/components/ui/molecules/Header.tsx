@@ -9,11 +9,23 @@ export const Header = ({data}) => {
     return (
         <header className={styles.header}>
             <div className={styles.wrapper}>
-                <h1 className={styles.title}>
-                    <Link to="/">
-                        {appName}
+                <div className={styles.cell}>
+                    <h1 className={styles.title}>
+                        <Link to="/">
+                            {appName}
+                        </Link>
+                    </h1>
+                </div>
+                {/*<div className={styles.cell}>
+                    <Link to={"/about"}>
+                        {"bookshelf"}
                     </Link>
-                </h1>
+                </div>*/}
+                <div className={styles.cell}>
+                    <Link to={"/about"}>
+                        {"about"}
+                    </Link>
+                </div>
             </div>
         </header>
     )
