@@ -1,5 +1,5 @@
 .header{
-    background: transparent;
+    background: rgb(231, 231, 231);
     margin-bottom: 1.45rem;
 
     .wrapper{
@@ -8,6 +8,12 @@
         margin: 0 auto;
         padding-bottom: 1.45rem;
         
+        .link{
+            &:hover, &:focus{
+                text-decoration: none;
+            }            
+        }
+
         .cell{
             display: table-cell;
             vertical-align: middle;
