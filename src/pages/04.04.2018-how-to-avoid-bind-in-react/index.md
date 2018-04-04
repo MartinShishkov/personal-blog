@@ -93,3 +93,5 @@ class MyComponent extends React.Component<{}, {}> {
     }
 }
 ```
+
+That's it! I hope this will help you write a bit better .jsx/.tsx code in the future!
