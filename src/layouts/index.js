@@ -19,7 +19,7 @@ const TemplateWrapper = ({ children }) => (
     />
     
     <div className={"container-fluid"} style={{height: "100%"}}>
-        <div className={"row"} style={{height: "100%"}}>
+        <div className={"row"}>
             <div className={"col-xs-12 col-sm-10 col-sm-offset-2"} style={{height: "100%" }}>
                 <div className={"row"} style={{backgroundColor: "rgb(231, 231, 231)"}}>
                     <div className={"col-xs-12"}>
@@ -27,14 +27,18 @@ const TemplateWrapper = ({ children }) => (
                     </div>
                 </div>
                 
-                <div className={"row"} style={{height: "100%", backgroundColor: "rgb(231, 231, 231)"}}>
+                <main className={"row"} style={{height: "100%", backgroundColor: "rgb(231, 231, 231)"}}>
                     <div className={"col-xs-12"} style={{height: "100%" }}>
                         {children()}
                     </div>
-                </div>
+                </main>
             </div>
         </div>
-    
+        <footer className={"row"}>
+            <div className={"col-xs-12"} style={{height: "200px"}}>
+
+            </div>
+        </footer>
         
     </div>
   </div>

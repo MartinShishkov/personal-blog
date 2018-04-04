@@ -26,17 +26,17 @@ export default class AboutPage extends React.Component<IAboutPageProps, {}> {
                         <List 
                             items={[
                                 {text: "Technical insanity", children: [
-                                    {text: "Shitty language "},
+                                    {text: "Shitty language flaws"},
                                     {text: "Configurations"},
                                     {text: "Keeping up (developers will know)"}
                                 ]},
-                                {text: "Default assumptions about everything"},
-                                {text: "Health/Energy"},
-                                {text: "Relationships with people"}
+                                //{text: "Default assumptions about everything"},
+                                //{text: "Health/Energy"},
+                                //{text: "Relationships with people"}
                             ]}
                         />
 
-                        <p>Helpful stuff:</p>
+                        <h2 style={{fontWeight: "normal"}}>Helpful stuff:</h2>
                         <List
                             items={[
                                 {text: "Tutorials"},
@@ -46,6 +46,10 @@ export default class AboutPage extends React.Component<IAboutPageProps, {}> {
                                 {text: "Mindset hacks"}
                             ]}
                         />
+
+                        <h2 style={{fontWeight: "normal"}}>What technology stack does the Shark prefer?</h2>
+                        <p>Front-end: react.js, typescript, ASP.NET MVC</p>
+
                     </div>
                 </div>
             </div>
