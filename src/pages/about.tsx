@@ -18,7 +18,7 @@ export default class AboutPage extends React.Component<IAboutPageProps, {}> {
                 <Helmet title={`sharkDeveloper - about`} />
                 <div className={"row"}>              
                     <div className={"col-xs-12 col-sm-8 col-sm-offset-2"}>
-                        <h2 style={{fontWeight: "normal"}}>What is this all about?</h2>
+                        <h2>What is this all about?</h2>
                         <p>
                             A blog for helping software developers (and not only) with
                             a lot of bullshit that they have to go through (on a daily basis):
@@ -36,7 +36,7 @@ export default class AboutPage extends React.Component<IAboutPageProps, {}> {
                             ]}
                         />
 
-                        <h2 style={{fontWeight: "normal"}}>Helpful stuff:</h2>
+                        <h2>Helpful stuff:</h2>
                         <List
                             items={[
                                 {text: "Tutorials"},
@@ -47,7 +47,7 @@ export default class AboutPage extends React.Component<IAboutPageProps, {}> {
                             ]}
                         />
 
-                        <h2 style={{fontWeight: "normal"}}>What technology stack does the Shark prefer?</h2>
+                        <h2>What technology stack does the Shark prefer?</h2>
                         <p>Front-end: react.js, typescript, ASP.NET MVC</p>
 
                     </div>
