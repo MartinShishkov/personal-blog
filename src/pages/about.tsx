@@ -46,10 +46,6 @@ export default class AboutPage extends React.Component<IAboutPageProps, {}> {
                                 {text: "Mindset hacks"}
                             ]}
                         />
-
-                        <h2>What technology stack does the Shark prefer?</h2>
-                        <p>Front-end: react.js, typescript, ASP.NET MVC</p>
-
                     </div>
                 </div>
             </div>
